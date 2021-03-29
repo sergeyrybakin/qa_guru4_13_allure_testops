@@ -18,4 +18,10 @@ public class WithStoryTests extends TestBase {
     void storyTest() {
         assertTrue(true);
     }
+
+    @Test
+    @DisplayName("the Second fake test with story")
+    void story2ndTest() {
+        assertTrue(true);
+    }
 }
