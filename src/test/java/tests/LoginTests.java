@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 @Feature("Login tests")
 public class LoginTests extends TestBase {
     @Test
-    @DisplayName("Successful login Google account")
+    @DisplayName("Successful login with Google account")
     void loginWithGoogle() {
         step("Open main page", () -> open(""));
 
